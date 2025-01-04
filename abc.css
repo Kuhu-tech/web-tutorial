@@ -1,0 +1,46 @@
+body {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer-container {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient( 45deg, #f9ce34,#ee2a7b,#6228d7);
+  border-radius: 30px;
+  position: absolute;
+  padding: 10px
+}
+
+.inner-container {
+    position: relative;
+    top: 10;
+    left: 10;
+    height: 160px;
+    width: 160px;
+    border: 10px solid white;
+    border-radius: 40px
+}
+
+.dot {
+  height: 15px;
+  /* display: inline; */
+  width: 15px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  left: 130;
+  top: 12;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  position: inherit;
+  top: 10;
+  left: 20;
+  border: 10px solid white;
+  border-radius: 50%;
+}

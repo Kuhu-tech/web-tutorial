@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.box1{
+height: 100px;
+width: 100px;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#strip{
+    height: 60px;
+    background-color: black;
+   
+}
+button{
+    background-color: rgb(233, 136, 18);
+}
+#logo{
+    color: rgb(210, 47, 10);
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    color: rgb(237, 241, 245);
+}
